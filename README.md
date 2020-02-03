@@ -16,9 +16,9 @@ A React based personal portfolio app using create-react-app and React Router v4.
 * React Router v4
 
 # Start App
-Clone repo, install, cd into folder and run:
-npm install
-npm start
+* Clone repo, install, cd into folder and run:
+* npm install
+* npm start
 
 ## Demo
 (https://ad757.surge.sh)
