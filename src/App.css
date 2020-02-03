@@ -1,0 +1,250 @@
+body {
+  font-family: 'Archivo' ,'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navbar CSS */
+.header-color {
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Landing Page CSS */
+.landing-grid {
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.avatar-img {
+  height: 250px;
+  margin-top: 5em;
+  border-radius: 50%;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: thick double #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-text p {
+      font-size: 24px;
+  }  
+
+  .banner-text h1 {
+      font-size: 45px;
+  }
+
+  .landing-grid {
+      position:  relative;
+  }
+
+  .social-links i {
+      padding-right: 8px;
+  }
+}
+
+/* Resume Page CSS */
+.resume-right-col {
+  background: #7e7e7e;
+  color: white;
+  padding: 2em;
+}
+
+.resume-left-col p {
+  font-size: 16px; 
+}
+
+@media screen and (max-width: 840px) {
+  .resume-left-col p {
+      font-size: 18px;
+  }
+}
+
+/* About Me CSS */
+
+.mdl-list__item-primary-content a {
+  color: black;
+}
+.about-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-grid h2 {
+  font-family: 'Archivo', sans-serif;
+  letter-spacing: 3px;
+}
+
+.about-grid hr {
+  border-top: thick double #000000;
+  width: 50%;
+  margin: auto;
+}
+
+.about-grid p {
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 2.0;
+}
+
+/* Projects Page CSS  */
+.projects-grid {
+  display: flex;
+}
+
+.project-icon {
+  color: #4d4d4d;
+  font-size: 3em;
+  padding: 8px;
+  padding-top: 15px;
+}
+
+#project-card {
+  width: 450px;
+  margin: auto;
+}
+
+#project-cell {
+  padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+
+  #project-card {
+      width: 350px;
+      margin: auto;
+  }
+
+  #project-cell {
+      padding: 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  #project-card {
+      width: 300px;
+      margin: auto;
+  }
+
+  #project-cell {
+      padding: 8px;
+  }
+}
+
+/* Contact Page CSS*/
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 800px;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.contact-grid h2 {
+  font-family: 'Archivo', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.contact-grid hr {
+  border-top: thick double #000000;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 3rem;
+  color: #000000;
+}
+
+.contact-item {
+  font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 840px) {
+  .contact-list i {
+      font-size: 24px;
+      padding-right: 2rem;
+  }
+
+  .contact-item {
+      font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-list i {
+      font-size: 16px;
+      padding-right: 1rem;
+  }
+
+  .contact-item {
+      font-size: 16px;
+  }
+
+  .contact-grid p {
+      font-size: 18px;
+  }
+}
+
+
