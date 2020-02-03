@@ -127,6 +127,36 @@ class Projects extends Component {
             )
         }
 
+        else if (this.state.activeTab === 2) {
+            return (
+                <div className="projects-grid">
+                    <Grid>
+                    <Cell col={6} tablet={12} phone={12}  id="project-cell">
+                         {/* Project 1 for ReactJS */}
+                            <Card shadow={5} id="project-card">
+                            <CardTitle style={{ color: 'black', height: '250px', background: 'url(https://i.imgur.com/e4zWJ16.png) center / cover' }}></CardTitle>
+                            <CardText>
+                                <h3>React Portfolio</h3>
+                                Portfolio made using React with an API Call. React components by React-MDL.<br />
+                                <span>
+                                <i className="fab fa-react project-icon" aria-hidden="true" />    
+                                <i className="fab fa-html5 project-icon" aria-hidden="true" />
+                                <i className="fab fa-css3-alt project-icon" aria-hidden="true" />
+                                <i className="fab fa-js-square project-icon" aria-hidden="true" />
+                                <i className="fab fa-node project-icon" aria-hidden="true" />
+
+                                </span>
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href="https://github.com/AD757/REACTPortfolio" target="_blank">GitHub</Button>
+                        </CardActions>
+                    </Card>
+                </Cell>
+            </Grid>
+            
+        </div>
+            )
+        }
     }
 
     render() {
@@ -135,6 +165,7 @@ class Projects extends Component {
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>JavaScript</Tab>
                     <Tab>NodeJS</Tab>
+                    <Tab>React</Tab>
                 </Tabs>
 
                 <div className="content">{this.toggleCategories()}</div>
