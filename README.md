@@ -1,5 +1,5 @@
 # Personal portfolio site
-For this project I created a personal portfolio site.
+For this project I created a personal portfolio site with an API weather call. 
 
 # Resources
 React Components and layout from React-MDL.
@@ -21,4 +21,4 @@ npm install
 npm start
 
 ## Demo
-[a link](https://ad757.surge.sh)
+(https://ad757.surge.sh)
