@@ -10,7 +10,7 @@ class Contact extends Component {
         <Cell col={6} tablet={8} phone={12}>
             <h3>Alladin Daher</h3>
             <img
-              src="https://i.imgur.com/GxvAbxm.jpg" alt="cv-cover"
+              src="https://i.imgur.com/3NHO4Uv.png" alt="cv-cover"
               style={{height: '285px', borderRadius: "10px", margin: '50px' }}
                />
              <p style={{ width: '80%', margin: 'auto'}}>Looking for a passionate, dedicated and creative Frontend Web Developer? Contact me for more information on how I can help your team.</p>
