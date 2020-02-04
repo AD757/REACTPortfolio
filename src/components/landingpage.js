@@ -10,7 +10,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
         <Cell col={12} tablet={8} phone={4}>
           <img
-              src="https://i.imgur.com/GxvAbxm.jpg" alt="cv-cover"
+              src="https://i.imgur.com/3NHO4Uv.png" alt="cv-cover"
               style={{height: '250px', borderRadius: "50px",  margin: '50px'}}
                />
 
