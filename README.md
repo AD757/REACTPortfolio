@@ -5,7 +5,7 @@ For this project I created my first personal portfolio site to practice React, o
 (https://ad757.surge.sh)
 
 ## Screenshoot
-![](screen.png)
+![](screen.jpg)
 
 ### React-portfolio-starter
 A React based personal portfolio app using create-react-app and React Router v4. From Paul Hanna tutorial.
