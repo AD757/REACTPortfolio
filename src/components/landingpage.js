@@ -16,7 +16,7 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Frontend Web Developer</h1>
-
+ 
             <hr/>
 
           <p>HTML5/CSS3 | Javascript | React |  NodeJS </p>
@@ -41,6 +41,11 @@ class Landing extends Component {
             {/* Instagram */}
             <a href="https://www.instagram.com/ad.frontend/" rel="noopener noreferrer" target="_blank">
             <i className="fab fa-instagram" aria-hidden="true" />
+          </a>
+
+           {/* My Portfolio */}
+            <a href="https://www.alladindaher.se" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-link" aria-hidden="true" />
           </a>
           
 

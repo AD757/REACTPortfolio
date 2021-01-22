@@ -23,21 +23,21 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '20px', fontFamily: 'archivo'}}>
+                  <ListItemContent style={{fontSize: '20px', fontFamily: 'Poppins'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     (+46) 73 715 23 78
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '20px', fontFamily: 'archivo'}}>
+                  <ListItemContent style={{fontSize: '20px', fontFamily: 'Poppins'}}>
                     <i className="fas fa-envelope" aria-hidden="true" /><a href="mailto:alladin.daher@hotmail.com" target="_blank" rel="noopener noreferrer">alladin.daher@hotmail.com</a>
                     
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '20px', fontFamily: 'archivo'}}>
+                  <ListItemContent style={{fontSize: '20px', fontFamily: 'Poppins'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
                     Alladin.Daher
                   </ListItemContent>

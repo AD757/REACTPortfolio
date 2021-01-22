@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Avatar from './cv.jpg';
+import Pic from './cv.jpg';
 
 class About extends Component {
     render() {
@@ -8,7 +8,7 @@ class About extends Component {
             <div>
                 <Grid className="about-grid">
                 <Cell col={4} tablet={8} phone={12}>
-                        <img src={Avatar} alt="avatar" style={{width: "250px", margin: '50px', borderRadius: "10px"}}/>
+                        <img src={Pic} alt="avatar" style={{width: "250px", margin: '50px', borderRadius: "10px"}}/>
                     </Cell>
                     <Cell col={8} tablet={8} phone={12}>
                         <h2 style={{ paddingTop: '40px'}}>About Me</h2> 

@@ -13,7 +13,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
             <img
-              src="https://i.imgur.com/tdjfgOo.jpg?1" alt="cv-cover"
+              src="https://i.imgur.com/3NHO4Uv.png" alt="cv-cover"
               style={{height: '270px', borderRadius: "10px"}}
                />
             </div>
@@ -82,19 +82,19 @@ class Resume extends Component {
               <h2>Skills</h2>
               <Skills
                 skill="HTML5/CSS3 "
-                progress={80}
+                progress={90}
                 />
                 <Skills
                   skill="Javascript"
-                  progress={70}
+                  progress={90}
                   />
                   <Skills
                     skill="NodeJS"
-                    progress={60}
+                    progress={80}
                     />
                     <Skills
                       skill="React"
-                      progress={50}
+                      progress={70}
                       />
 
 
