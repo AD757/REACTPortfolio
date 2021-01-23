@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body {
+  font-weight: 300 !important;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 }
 
 /* Navbar CSS */
 .header-color {
-  background: #43cea2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #43cea2;  
+  background: -webkit-linear-gradient(to left, #185a9d, #43cea2); 
+  background: linear-gradient(to left, #185a9d, #43cea2); 
 }
 
 /* Landing Page CSS */
 .landing-grid {
-  background: #43cea2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #43cea2;  
+  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);  
+  background: linear-gradient(to left, #185a9d, #43cea2); 
   text-align: center;
   position: fixed;
   top: 0;
@@ -244,5 +245,3 @@ body {
       font-size: 18px;
   }
 }
-
-
