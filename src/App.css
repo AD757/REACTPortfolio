@@ -120,7 +120,6 @@ body {
 }
 
 .about-grid h2 {
-  font-family: 'Poppins', sans-serif;
   letter-spacing: 3px;
 }
 
@@ -131,7 +130,6 @@ body {
 }
 
 .about-grid p {
-  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 2.0;
@@ -183,65 +181,53 @@ body {
 }
 
 /* Contact Page CSS*/
+.contact-body {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
 .contact-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 800px;
+  height: 550px;
+  background: white;
   color: black;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
-.contact-grid h2 {
-  font-family: 'Poppins', sans-serif;
+@media only screen and (max-width: 440px) {
+  .contact-grid {
+    margin-left: 20px;
+  }
+  .formLabel {
+    margin-left: -10px;
+  }
+
 }
 
-.contact-grid p {
-  font-family: 'Poppins', sans-serif;
+
+.formLabel {
+  margin-right: 15px;
+  font-size: 17px;
   font-weight: bold;
-  font-size: 16px;
+  color: #000;
 }
 
-.contact-grid hr {
-  border-top: inset #282828;
-  width: 50%;
-  margin: auto;
+.formLabel1 {
+  margin-right: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  margin-left: "-340px";
 }
 
-.contact-list i {
-  font-size: 50px;
-  padding-right: 3rem;
-  color: #000000;
-}
-
-.contact-item {
-  font-size: 30px;
-}
-
-
-
-@media screen and (max-width: 840px) {
-  .contact-list i {
-      font-size: 20px;
-      padding-right: 2rem;
-  }
-
-  .contact-item {
-      font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .contact-list i {
-      font-size: 16px;
-      padding-right: 1rem;
-  }
-
-  .contact-item {
-      font-size: 16px;
-  }
-
-  .contact-grid p {
-      font-size: 18px;
-  }
+.contactInput {
+  border: 1.5px solid #000;
+  border-radius: 8px;
+  padding: 4px 105px;
 }
