@@ -1,6 +1,6 @@
 # Personal portfolio site (V.1)
 For this project I created my first personal portfolio site to practice React, original created by Paul Hanna's youtube series. 
-Put my own touch and created own things along like. Added an API weather call from my current location. 
+Put my own touch and created own things along like calling an API weather from my current location. 
 
 This is a template portfolio. My actuall portfolio is [here](https://www.alladindaher.se/)
 
