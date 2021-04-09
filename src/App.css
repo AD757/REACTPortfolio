@@ -203,7 +203,7 @@ body {
 }
 
 .contact-grid hr {
-  border-top: thick double #000000;
+  border-top: inset #282828;
   width: 50%;
   margin: auto;
 }
