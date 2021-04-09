@@ -1,14 +1,17 @@
 # Personal portfolio site (V.1)
-For this project I created my first personal portfolio site to practice React, original created by Paul Hanna's youtube series. Put my own touch and created own things along like. Added a live API weather call from my current location. 
+For this project I created my first personal portfolio site to practice React, original created by Paul Hanna's youtube series. 
+Put my own touch and created own things along like. Added an API weather call from my current location. 
+
+This is a template portfolio. My actuall portfolio is [here](https://www.alladindaher.se/)
 
 ## Demo
-(https://ad757.surge.sh)
+- [Link](https://ad757.surge.sh)
 
 ## Screenshoot
 ![](screen.jpg)
 
 ### React-portfolio-starter
-A React based personal portfolio app using create-react-app and React Router v4. From Paul Hanna tutorial.
+A React based personal portfolio app using create-react-app and React Router v4.
 
 # Tools
 * create-react-app cli
