@@ -13,7 +13,7 @@ class ContactForm extends Component {
         />
         <br />
         <br />
-        <p style={{ width: '80%', margin: 'auto', fontSize: '18px' }}>
+        <p style={{ margin: 'auto', fontSize: '17px', textAlign: 'center' }}>
           Looking for a passionate, dedicated and creative Frontend Web Developer? Contact
           me for more information on how I can help your team.
         </p>
@@ -37,7 +37,7 @@ class ContactForm extends Component {
           <input type="text" className="contactInput" style={{ marginLeft: '-6px' }} />
           <br />
           <br />
-          <label className="formLabel1" htmlFor="">
+          <label className="messageContainer" htmlFor="">
             Message:
             <br />
           </label>

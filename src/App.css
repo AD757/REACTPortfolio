@@ -114,13 +114,13 @@ body {
   text-align: center;
   justify-content: center;
   width: 85%;
-  height: 550px;
+  height: 100%;
   color: black;
   margin-bottom: 20px;
 }
 
 .about-grid h2 {
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .about-grid hr {
@@ -131,8 +131,9 @@ body {
 
 .about-grid p {
   font-size: 20px;
-  letter-spacing: 2px;
-  line-height: 2.0;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: left;
 }
 
 /* Projects Page CSS  */
@@ -200,17 +201,6 @@ body {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 440px) {
-  .contact-grid {
-    margin-left: 20px;
-  }
-  .formLabel {
-    margin-left: -10px;
-  }
-
-}
-
-
 .formLabel {
   margin-right: 15px;
   font-size: 17px;
@@ -218,16 +208,16 @@ body {
   color: #000;
 }
 
-.formLabel1 {
+.messageContainer {
   margin-right: 15px;
   font-size: 17px;
   font-weight: bold;
-  color: #000;
-  margin-left: "-340px";
+  color: #282828;
+  margin-left: "auto";
 }
 
 .contactInput {
-  border: 1.5px solid #000;
-  border-radius: 8px;
+  border: 1px solid #282828;
+  border-radius: 2px;
   padding: 4px 105px;
 }

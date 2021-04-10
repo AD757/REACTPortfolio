@@ -14,7 +14,7 @@ class About extends Component {
               style={{ width: '250px', margin: '50px', borderRadius: '5px' }}
             />
           </Cell>
-          <Cell col={8} tablet={8} phone={12}>
+          <Cell col={6} tablet={8} phone={12}>
             <h2 style={{ paddingTop: '40px' }}>About Me</h2>
             <hr />
             <p style={{ paddingTop: '20px', margin: 'auto' }}>

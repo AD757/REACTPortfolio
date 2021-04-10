@@ -11,7 +11,7 @@ class Contact extends Component {
           <br />
           <br />
           <Grid className="contact-grid">
-            <Cell col={6} tablet={12} phone={12}>
+            <Cell col={6} tablet={8} phone={12}>
               <ContactForm />
             </Cell>
           </Grid>
